@@ -10,7 +10,7 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:background="#A50808"
-    tools:context=".MainActivity">
+    tools:context=".SplashScreenDesign">
 
     <ImageView
         android:id="@+id/img"
