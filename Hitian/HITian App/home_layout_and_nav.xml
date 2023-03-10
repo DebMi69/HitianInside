@@ -20,7 +20,7 @@
             android:layout_height="115dp"
             android:background="#A50808"
             android:textColor="@color/white"
-            app:menu="@menu/b_nav_menu" />
+            app:menu="@menu/bottom_nav_menu" />
     </FrameLayout>
 
 </RelativeLayout>
