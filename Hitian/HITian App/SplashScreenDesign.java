@@ -13,7 +13,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class SplashScreenDesign extends AppCompatActivity {
 
     private static int SPLASH_SCREEN = 2500;
 
