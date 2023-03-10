@@ -1,0 +1,72 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HITian Inside</title>
+    <link rel="stylesheet" href="inside3.css" />
+  </head>
+  <body>
+    <div class="header">
+    <img id="logo" src="Inside.png" alt="" width="60" />
+    <em style="font-size: xxx-large; font-weight: bolder; padding-inline-start: 320px;">Welcome to HITian Inside page!</em>
+    <img id="logo2" src="hit_logo.png" alt="" width="60">
+    <em class="txt2" style="font-weight: bold; font-style: italic; font-size: larger; padding-inline-start: 520px;">Somewhere between better and the best!</em>
+    <br>
+    <br>
+    <nav>
+      <a href="HITian.html">HOME</a>
+      <a href="#">ABOUT</a>
+      <a href="#">EVENTS</a>
+      <a href="gall.html">GALLERY</a>
+      <a href="#">MERCHANDISE</a>
+      <a href="contact.html">CONTACT US</a>
+    </nav>
+    </div>
+    <br>
+    <hr>
+    <div class="row">
+        <div class="column">
+          <img src="bg1.png" alt="Inside1" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="bg2.png" alt="Inside2" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="bg3.png" alt="Inside3" onclick="myFunction(this);">
+        </div>
+        <div class="column">
+          <img src="bg5.jpg" alt="Inside4" onclick="myFunction(this);">
+        </div>
+      </div>
+      
+      <div class="container1">
+        <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+      
+        <img id="expandedImg" style="width:100%">
+      
+        <div id="imgtext"></div>
+      </div>
+    <footer>
+        <em> Connect us:</em>
+        <a href="https://www.instagram.com/hitianinside/?hl=en" target="_blank"><img src="inst.png" alt="Instagram" width="25"> </a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.facebook.com/HITian.Inside/" target="_blank"><img src="fcb.png" alt="facebook" width="25" /></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.youtube.com/channel/UCbIfnsMFKnkONyT8QCPifbw/videos?view=57" target="_blank"><img src="yt.png" alt="youtube" width="25" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="https://www.linkedin.com/company/hitian-inside/?originalSubdomain=in" target="_blank"><img src="lnkd.png" alt="linkedin" width="25" /></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </footer>
+      <script>
+        function myFunction(imgs) {
+          var expandImg = document.getElementById("expandedImg");
+          var imgText = document.getElementById("imgtext");
+          expandImg.src = imgs.src;
+          imgText.innerHTML = imgs.alt;
+          expandImg.parentElement.style.display = "block";
+        }
+        </script>
+    
+    </body>
+
+  </html>    
