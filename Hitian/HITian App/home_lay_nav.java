@@ -25,7 +25,7 @@ import android.os.Bundle;
 import com.example.hitianinside.homefrag;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
-public class Main2Activity extends AppCompatActivity {
+public class home_lay_nav extends AppCompatActivity {
     public BottomNavigationView bottomNavigationView;
 
     com.example.hitianinside.homefrag homefrag = new homefrag();
